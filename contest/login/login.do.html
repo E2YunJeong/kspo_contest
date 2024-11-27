@@ -1,0 +1,1796 @@
+﻿<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="Description" content="">
+	<meta name="keywords" content="">
+	<meta name="Author" content="">
+	
+	<link rel="stylesheet" href="../common/css/default.css" type="text/css">
+	<link rel="stylesheet" href="../common/css/layout.css" type="text/css">
+	<link rel="stylesheet" href="../common/css/page.css" type="text/css">
+	<link rel="stylesheet" href="../common/css/jquery-ui.css" type="text/css">
+	
+	<!-- Common Script -->
+	<script src="../common/js/modernizr.custom.js"></script>
+	<script src="../common/js/jquery-1.12.4.min.js"></script>
+	
+	
+		<script src="../gh/iworks-interactive/cdn/error/stacks.min.js"></script>
+	
+	
+	<script src="../common/js/jquery-ui.min.js"></script>
+	<script src="../common/js/common.js"></script>
+	<script src="../common/js/voucher.js?ver=240209"></script>
+	
+	<title>로그인 | 로그인 | 스포츠강좌이용권</title>
+</head>
+<body>
+<div class="wrap">
+	<!--skip -->
+	<!-- 	20190402 접근성수정-->
+<!-- 	<a class="skip" href="contents">본문바로가기</a> -->
+	<a class="skip" href="#content-wp">본문바로가기</a>
+	<a class="skip" href="#footer">하단바로가기</a>
+	<!--//skip-->
+	
+	<!-- Header Start -->
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+	
+	//통합검색 결과 페이지를 호출한다.
+	function searchKspo(queryString) {
+		
+		if(typeof(queryString) != "undefined" && queryString != "") {
+			
+			$("#query").val(queryString);
+			
+		} else {
+			
+			if($("#query").val().trim() == "") {
+				
+				alert("검색어를 입력해주세요.");
+				return;
+				
+			}
+			
+		}
+		
+		$("#searchForm").submit();
+		
+	}
+	
+</script>
+
+<header>
+	<section class="totalNews" id="totalNews">
+		<div class="totalNews-wrap" style="position: relative;">
+			<h2>KSPO 통합소식</h2>
+			<div class="hq">
+				<h3>공단본부</h3>
+				<div class="hq-slide owl-carousel">
+					<div class="item"><a href="#"><img src="../common/images/main/quter_slide_1.jpg" alt="kspo 플러스 정부 주관 고객만족도조사(PCSI) 5년 연속 최고등급 획득 고객님의 믿음과 사랑에 감사드리며, 더 큰 감동과 행복을 드리기 위해 올해도 최선을 다하겠습니다." class="adi"><span>고객만족도 5년연속 최고등급 획득</span></a></div>
+					<div class="item"><a href="#"><img src="../common/images/main/quter_slide_1.jpg" alt="kspo 플러스 정부 주관 고객만족도조사(PCSI) 5년 연속 최고등급 획득 고객님의 믿음과 사랑에 감사드리며, 더 큰 감동과 행복을 드리기 위해 올해도 최선을 다하겠습니다." class="adi"><span>고객만족도 5년연속 최고등급 획득</span></a></div>
+					<div class="item"><a href="#"><img src="../common/images/main/quter_slide_1.jpg" alt="kspo 플러스 정부 주관 고객만족도조사(PCSI) 5년 연속 최고등급 획득 고객님의 믿음과 사랑에 감사드리며, 더 큰 감동과 행복을 드리기 위해 올해도 최선을 다하겠습니다." class="adi"><span>고객만족도 5년연속 최고등급 획득</span></a></div>
+				</div>
+			</div>
+			<ul class="branch">
+				<li class="branch-sports">
+					<h3>스포츠레저사업본부</h3>
+					<ul class="branch-list">
+						<li><a href="#"><img src="../common/images/main/branch_1.jpg" alt="" class="adi"><span>2017 레저스포츠 안전교육 실시</span></a></li>
+						<li><a href="#"><span>자유학기제 연계 레저스포츠 지원 프로그램 안내</span></a></li>
+						<li><a href="#"><span>투르 드 코리아 2017 대회 개최 안내</span></a></li>
+					</ul>
+				</li>
+				<li class="branch-road">
+					<h3>경주사업총괄본부</h3>
+					<ul class="branch-list">
+						<li><a href="#"><img src="../common/images/main/branch_2.jpg" alt="" class="adi"><span>[의정부 스피존] 2017 힙합댄스 문화교실 신청 안내</span></a></li>
+						<li><a href="#"><span>2017 경륜·경정 민간 모니터링단 『Clean-e』 모집요강 안내</span></a></li>
+						<li><a href="#"><span>경정 경주서비스직 모집공고</span></a></li>
+					</ul>
+				</li>
+				<li class="branch-lab">
+					<h3>한국스포츠과학원</h3>
+					<ul class="branch-list">
+						<li><a href="#"><img src="../common/images/main/branch_3.jpg" alt="" class="adi"><span>2017년 스포츠산업분야 인턴희망기업 공모</span></a></li>
+						<li><a href="#"><span>초빙 및 위촉연구원 모집공고(쇼트트랙/태권도 경기력 향상...</span></a></li>
+						<li><a href="#"><span>위촉연구원 모집공고(사격 경기 시 정서적 변화와 안정화 전...</span></a></li>
+					</ul>
+				</li>
+				<li class="event-inf">
+					<h3>행사안내</h3>
+					<ul class="branch-list">
+						<li><a href="#"><img src="../common/images/main/branch_4.jpg" alt="" class="adi"><span>2017년 올림픽공원 장미광장 개장 국산장미 및 국산화훼 특...</span></a></li>
+						<li><a href="#"><span>[지샘터도서관 - 두번째 길 위의 인문학] 시인과 함께 시(詩)...</span></a></li>
+						<li><a href="#"><span>뮤즈앤재즈라이브(MUSE & JAZZ LIVE)</span></a></li>
+					</ul>
+				</li>
+			</ul>
+			<a href="#" class="x dark"><span class="sr-only">Close</span></a>
+		</div>
+	</section>
+	<!-- Global Navigation Bar  -->
+	<div class="gnb-wrap">
+		<ul class="gnb">
+			<!-- <li class="logo"><a href="http://www.kspo.or.kr" target="_blank" title="새창열림">국민체육진흥공단</a></li> -->
+			<!-- <li><a href="http://www.kspo.or.kr/sportsbiz" target="_blank" title="새창열림">스포츠레저사업본부</a></li> -->
+			<!-- <li><a href="http://www.krace.or.kr" target="_blank" title="새창열림">경주사업총괄본부</a></li> -->
+			<!-- <li><a href="http://www.sports.re.kr/" target="_blank" title="새창열림">한국스포츠과학원</a></li> -->
+			<li><a href="http://dvoucher.kspo.or.kr/" target="_blank" title="새창열림">장애인스포츠강좌이용권</a></li>
+			<!-- 20180209 수정 -->
+			
+			<!-- 20200616 수정 -->
+			<li class="payment-guide"><a href="../file/%25EC%25B9%25B4%25EB%2593%259C%25EA%25B2%25B0%25EC%25A0%259C%25EC%2595%2588%25EB%2582%25B4.pdf?docId=d2987955772bf9daa08f001de801c8ba" title="pdf 파일 다운로드">카드결제안내</a></li>
+		
+			
+			<!-- //20180209 수정 -->
+		</ul>
+	</div>
+	<!-- Util Bar  -->
+	<div class="util">
+		<h1>
+			<a href="../main.do.html">스포츠강좌이용권</a>
+		</h1>
+	
+		
+		
+		<!-- 유틸메뉴 -->
+		<ul class="util-bar">
+			<li>
+				
+					
+						<a href="#" onclick="javascript:goLogin();return false;">로그인</a>
+					
+					
+				
+			</li>
+			
+			<!-- 2020 10 23 김태형주임 작업 -->
+			
+				<li>
+					<a href="findVoucherInfo.do.html?menuNo=46&topMenuNo=42" title="페이지 이동">아이디/비밀번호 찾기</a>
+				</li>
+			
+			<!-- 2020 10 23 김태형주임 작업 -->
+			
+			<li><a href="../svoucher/bbs/B0000058/list.do.html?menuNo=22&topMenuNo=5">자주찾는질문</a></li>
+			<li><a href="../contents/sitemap.do.html?menuNo=53&topMenuNo=48">사이트맵</a></li>
+		</ul>
+		
+		<ul class="member-guide">
+			<li><a href="#" onclick="window.open('/contents/voucherGuide.do','개인회원가이드','width=850, height=700, scrollbars=no, location=no, left=100, top=50')" title="새창열림">개인회원가이드</a></li>
+			<li><a href="#" onclick="window.open('/contents/facilityGuide.do','시설회원가이드','width=850, height=700, scrollbars=no, location=no, left=100, top=50')" title="새창열림">시설회원가이드</a></li>		
+			
+			<!--2019.03.30 현업요청(허슬기D) modified by YDY  -->
+			
+							
+		</ul>
+		
+		<!-- 모바일 util //-->
+		<ul class="mo-util">
+			<!--<li class="total-news"><a href="#totalNews" data-rel="totalNews">통합소식</a></li>-->
+			<li class="login">
+				
+					
+						<a href="#" onclick="javascript:goLogin();return false;">로그인</a>
+					
+					
+				
+			</li>
+			<li class="search"><a href="#laySearchBox" data-rel="laySearchBox">검색</a></li>
+			<li class="lnb-open"> <a href="#layLnb" class="hamburger" data-rel="layLnb"> <span class="line"></span> <span class="line"></span> <span class="line"></span> <span class="sr-only">메뉴열기</span> </a></li>
+		</ul>
+	</div>
+	<!-- Local Navigation Bar -->
+	<div class="lnb-empty-wrap">
+		<div class="lnb-wrap">
+			<div class="sm-bg"></div>
+			<div class="lnb-inner" id="layLnb">
+				<!--모바일 로그인-->
+				<div class="mo-login"> 
+					
+						
+							<!--로그인전-->
+							<div class="login-before">
+								<p>수강신청, 신청결과 등 더 많은 서비스를 이용하시려면 <strong>로그인</strong>을 해주세요</p>
+								<div class="logbtn">
+									<a href="#" onclick="javascript:goLogin();return false;" class="login btn-login">로그인</a>
+								</div>
+							</div>
+						
+						
+					
+				</div>
+				<!--모바일 로그인//-->
+				<ul class="lnb-list">
+					
+						
+							
+								<li>
+									<a href="../course/memberFacilityList.do.html?menuNo=8&topMenuNo=1">
+										수강신청·결제
+									</a>
+									<div class="sm">
+										<p>수강신청·결제</p>
+										<ul>
+											
+												
+													
+														
+														
+													
+													<li>
+														
+															
+															
+																<a href="../course/memberFacilityList.do.html?menuNo=8&topMenuNo=1">
+																	개인 수강신청·결제
+																</a>
+															
+														
+													</li>
+												
+											
+												
+													
+														
+														
+													
+													<li>
+														
+															
+															
+																<a href="../course/facilityFindMember.do.html?menuNo=10&topMenuNo=1">
+																	시설 수강신청·결제
+																</a>
+															
+														
+													</li>
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+										</ul>
+									</div>
+									
+								</li>
+							
+							
+						
+					
+						
+							
+								<li>
+									<a href="../voucher/voucherSelectArea.do.html?menuNo=11&topMenuNo=3">
+										개인 이용권신청
+									</a>
+									<div class="sm">
+										<p>개인 이용권신청</p>
+										<ul>
+											
+												
+											
+												
+											
+												
+													
+														
+														
+													
+													<li>
+														
+															
+															
+																<a href="../voucher/voucherSelectArea.do.html?menuNo=11&topMenuNo=3">
+																	개인 이용권신청
+																</a>
+															
+														
+													</li>
+												
+											
+												
+													
+														
+														
+													
+													<li>
+														
+															
+															
+																<a href="../voucher/voucherShortCourseSelectArea.do.html?menuNo=58&topMenuNo=3">
+																	단기스포츠체험강좌 신청
+																</a>
+															
+														
+													</li>
+												
+											
+												
+													
+														
+														
+													
+													<li>
+														
+															
+															
+																<a href="../svoucher/main/contents.do.html?menuNo=12&topMenuNo=3">
+																	신청안내
+																</a>
+															
+														
+													</li>
+												
+											
+												
+													
+														
+														
+													
+													<li>
+														
+															
+															
+																<a href="../svoucher/main/contents.do-1.html?menuNo=13&topMenuNo=3">
+																	이용안내
+																</a>
+															
+														
+													</li>
+												
+											
+												
+													
+														
+														
+													
+													<li>
+														
+															
+															
+																<a href="../officer/officerList.do.html?menuNo=14&topMenuNo=3">
+																	시군구 담당자 조회
+																</a>
+															
+														
+													</li>
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+										</ul>
+									</div>
+									
+								</li>
+							
+							
+						
+					
+						
+							
+								<li>
+									<a href="../facility/facilityAgree.do.html?menuNo=15&topMenuNo=4">
+										시설 등록신청
+									</a>
+									<div class="sm">
+										<p>시설 등록신청</p>
+										<ul>
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+													
+														
+														
+													
+													<li>
+														
+															
+															
+																<a href="../facility/facilityAgree.do.html?menuNo=15&topMenuNo=4">
+																	시설 등록신청
+																</a>
+															
+														
+													</li>
+												
+											
+												
+													
+														
+														
+													
+													<li>
+														
+															
+															
+																<a href="../facility/facilityMemberAgree.do.html?menuNo=16&topMenuNo=4">
+																	시설 회원가입
+																</a>
+															
+														
+													</li>
+												
+											
+												
+													
+														
+														
+													
+													<li>
+														
+															
+															
+																<a href="../svoucher/main/contents.do-2.html?menuNo=17&topMenuNo=4">
+																	신청안내
+																</a>
+															
+														
+													</li>
+												
+											
+												
+													
+														
+														
+													
+													<li>
+														
+															
+															
+																<a href="../svoucher/main/contents.do-3.html?menuNo=18&topMenuNo=4">
+																	웹가맹점 신청안내
+																</a>
+															
+														
+													</li>
+												
+											
+												
+													
+														
+														
+													
+													<li>
+														
+															
+															
+																<a href="../officer/officerList.do-1.html?menuNo=19&topMenuNo=4">
+																	시군구 담당자조회
+																</a>
+															
+														
+													</li>
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+										</ul>
+									</div>
+									
+								</li>
+							
+							
+						
+					
+						
+							
+								<li>
+									<a href="../svoucher/bbs/B0000051/list.do.html?menuNo=20&topMenuNo=5">
+										커뮤니티
+									</a>
+									<div class="sm">
+										<p>커뮤니티</p>
+										<ul>
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+													
+														
+														
+													
+													<li>
+														
+															
+															
+																<a href="../svoucher/bbs/B0000051/list.do.html?menuNo=20&topMenuNo=5">
+																	공지사항
+																</a>
+															
+														
+													</li>
+												
+											
+												
+													
+														
+														
+													
+													<li>
+														
+															
+															
+																<a href="../svoucher/bbs/B0000058/list.do.html?menuNo=22&topMenuNo=5">
+																	자주찾는질문
+																</a>
+															
+														
+													</li>
+												
+											
+												
+													
+														
+														
+													
+													<li>
+														
+															
+															
+																<a href="../svoucher/bbs/qna/qnaList.do.html?menuNo=23&topMenuNo=5">
+																	고객의 소리
+																</a>
+															
+														
+													</li>
+												
+											
+												
+													
+														
+														
+													
+													<li>
+														
+															
+															
+																<a href="../svoucher/bbs/clean/cleanInfo.do.html?menuNo=24&topMenuNo=5">
+																	부정사용신고센터
+																</a>
+															
+														
+													</li>
+												
+											
+												
+													
+														
+														
+													
+													<li>
+														
+															
+															
+																<a href="../svoucher/bbs/B0000100/list.do.html?menuNo=57&topMenuNo=5">
+																	수기 공모전 수상작
+																</a>
+															
+														
+													</li>
+												
+											
+												
+													
+														
+														
+													
+													<li>
+														
+															
+																<a href="https://www.113366.com/" target="_blank" title="새창열림">
+																	1:1 원격상담
+																</a>
+															
+															
+														
+													</li>
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+										</ul>
+									</div>
+									
+								</li>
+							
+							
+						
+					
+						
+							
+								<li>
+									<a href="../svoucher/main/contents.do-4.html?menuNo=25&topMenuNo=6">
+										이용권 사업안내
+									</a>
+									<div class="sm">
+										<p>이용권 사업안내</p>
+										<ul>
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+													
+														
+														
+													
+													<li>
+														
+															
+															
+																<a href="../svoucher/main/contents.do-4.html?menuNo=25&topMenuNo=6">
+																	스포츠강좌이용권사업
+																</a>
+															
+														
+													</li>
+												
+											
+												
+													
+														
+														
+													
+													<li>
+														
+															
+																<a href="http://www.kspo.or.kr/kspo/main/contents.do?menuNo=200090" target="_blank" title="새창열림">
+																	기금지원사업소개
+																</a>
+															
+															
+														
+													</li>
+												
+											
+												
+													
+														
+														
+													
+													<li>
+														
+															
+															
+																<a href="../svoucher/main/contents.do-5.html?menuNo=27&topMenuNo=6">
+																	문화누리사업소개
+																</a>
+															
+														
+													</li>
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+												
+											
+										</ul>
+									</div>
+									
+								</li>
+							
+							
+						
+					
+						
+							
+							
+								
+									
+									
+									
+										
+											<li>
+												<a href="login.do.html?menuNo=28&topMenuNo=7">
+													마이페이지
+												</a>
+												<div class="sm">
+													<p>마이페이지</p>
+													<ul>
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+																<li>
+																	<a href="login.do.html?menuNo=28&topMenuNo=7">
+																		강좌이용권 신청현황
+																	</a>
+																</li>
+															
+														
+															
+																<li>
+																	<a href="login.do.html?menuNo=29&topMenuNo=7">
+																		수강신청/결제현황
+																	</a>
+																</li>
+															
+														
+															
+																<li>
+																	<a href="login.do.html?menuNo=31&topMenuNo=7">
+																		출석조회
+																	</a>
+																</li>
+															
+														
+															
+																<li>
+																	<a href="login.do.html?menuNo=32&topMenuNo=7">
+																		회원정보수정
+																	</a>
+																</li>
+															
+														
+															
+																<li>
+																	<a href="login.do.html?menuNo=33&topMenuNo=7">
+																		회원탈퇴
+																	</a>
+																</li>
+															
+														
+															
+																<li>
+																	<a href="login.do.html?menuNo=56&topMenuNo=7">
+																		보유카드현황
+																	</a>
+																</li>
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+															
+														
+													</ul>
+												</div>
+												
+											</li>
+										
+									
+								
+							
+						
+					
+						
+							
+							
+								
+									
+									
+									
+										
+									
+								
+							
+						
+					
+				</ul>
+				<div class="search-block">
+					<div class="search"> <a href="#laySearchBox" data-rel="laySearchBox">검색</a> </div>
+				</div>
+				<!-- 검색버튼 -->
+				<div class="close-mo"> <a href="#" class="hamburger is-active x"><span class="sr-only">메뉴닫기</span> </a> </div>
+				<!-- 검색닫기 --> 
+			</div>
+		</div>
+		<div class="search-wrap" id="laySearchBox">
+			<div class="search-inner">
+				<form id="searchForm" name="searchForm" action="https://www.kspo.or.kr/kspo/search.jsp" target="_blank" method="post">
+					<div class="search-box">
+						<input type="text" id="query" name="query" class="inputbox-search" placeholder="검색어를 입력해주세요." title="검색박스">
+						<input type="hidden" id="siteId" name="siteId" class="inputbox-search" value="svoucher">
+						<button type="button" onclick="javascript:searchKspo();">검색</button>
+					</div>
+				</form>
+				<dl class="recomand-search">
+					<dt>추천검색어 <span>:</span></dt>
+					<dd class="pc">
+						<a href="#" onclick="javascript:searchKspo('스포츠강좌이용권');return false;">스포츠강좌이용권</a>,
+						<a href="#" onclick="javascript:searchKspo('개인이용권신청');return false;">개인이용권신청</a>,
+						<a href="#" onclick="javascript:searchKspo('시설회원가입');return false;">시설회원가입</a>,
+						<a href="#" onclick="javascript:searchKspo('수강신청');return false;">수강신청</a>,
+						<a href="#" onclick="javascript:searchKspo('시군구 담당자');return false;">시군구 담당자</a>,
+						<a href="#" onclick="javascript:searchKspo('웹가맹점');return false;">웹가맹점</a>,
+						<a href="#" onclick="javascript:searchKspo('출석관리');return false;">출석관리</a>
+					</dd>
+					<dd>
+						<a href="#" onclick="javascript:searchKspo('스포츠강좌이용권');return false;">스포츠강좌이용권</a>
+						<a href="#" onclick="javascript:searchKspo('개인이용권신청');return false;">개인이용권신청</a>
+						<a href="#" onclick="javascript:searchKspo('시설회원가입');return false;">시설회원가입</a>
+						<a href="#" onclick="javascript:searchKspo('수강신청');return false;">수강신청</a>
+						<a href="#" onclick="javascript:searchKspo('시군구 담당자');return false;">시군구 담당자</a>
+						<a href="#" onclick="javascript:searchKspo('웹가맹점');return false;">웹가맹점</a>
+						<a href="#" onclick="javascript:searchKspo('출석관리');return false;">출석관리</a>
+					</dd>
+				</dl>
+				<a href="#" class="x dark"><span class="sr-only">Close</span></a> </div>
+		</div>
+		<!-- 검색 레이어 //--> 
+	</div>
+</header>
+	<!-- Header End -->
+	<!-- 20180222 접근성 수정 -->
+	<div id="contents" class="contents" tabindex="-1">
+		<!-- 컨텐츠 시작 -->
+		<div class="sub-layout">
+			
+			<!-- Left Menu Start -->
+			
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="lnb">
+	<h3>로그인</h3>
+	<ul class="lmenu">
+		
+			<li>
+				
+					
+					
+						<a class="on" href="login.do.html?menuNo=43&topMenuNo=42">로그인</a>
+					
+				
+			</li>
+		
+			<li>
+				
+					
+					
+						<a class="" href="findVoucherInfo.do.html?menuNo=46&topMenuNo=42">아이디/비밀번호찾기</a>
+					
+				
+			</li>
+		
+			<li>
+				
+					
+					
+						<a class="" href="restoreMember.do.html?menuNo=47&topMenuNo=42">휴면계정 복구</a>
+					
+				
+			</li>
+		
+	</ul>
+	<strong class="title">관련콘텐츠</strong>
+	<div class="rela-list">
+		<dl class="list01">
+			<dt>스포츠강좌이용권 상담 및 문의</dt>
+			<dd>
+				<p>상담시간:월~금 09:00~18:00</p>
+				<p>점심시간:12:00~13:00 </p>
+				<p class="info number"> 02)410-1298~9 </p>
+			</dd>
+		</dl>
+		<dl class="list02">
+			<dt>시군구 담당자 연락처</dt>
+			<dd>
+				<p> 스포츠강좌이용권 대상자 선정 문의 </p>
+				<p class="info link">
+					<a href="../officer/officerList.do.html?menuNo=14&topMenuNo=3">시군구 담당자 조회</a>
+				</p>
+			</dd>
+		</dl>
+		<dl class="list03">
+			<dt>신한카드 고객센터</dt>
+			<dd>
+				<p> - 이용권카드발급, 분실신고, 이용안내 </p>
+				<p> -웹가맹점 등록/정산 및 결제금액 </p>
+				<p class="info number"> 1544-7000 </p>
+			</dd>
+		</dl>
+		
+	</div>
+</div>
+			<!-- Left Menu End -->
+			
+			<div class="content-wp" id="content-wp">
+<!-- 			<div class="content-wp"> -->
+				<!-- 컨텐츠 영역 Start -->
+				
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- TouchEnNx Start-->
+<script src='../raonnx/cmn/json2.js'></script>
+<script src='../raonnx/cmn/TouchEnNx.js'></script>
+<script src='../raonnx/cmn/TouchEnNx_exproto.js'></script>
+<script src='../raonnx/cmn/TouchEnNx_install.js'></script>
+<script src='../raonnx/cmn/TouchEnNx_daemon.js'></script>
+<!-- TouchEnNx End-->
+
+<!-- TouchEn nxKey Start -->
+<!-- 키보드보안 적용시 주석 해제 필요-->
+<script src='../raonnx/nxKey/js/nxkey_config.js'></script>
+<script src='../raonnx/nxKey/js/TouchEnNxKey_Interface.js'></script>
+<script src='../raonnx/nxKey/js/TouchEnNxKey.js'></script>
+
+<!-- TouchEn nxKey End -->
+<!--  
+<link rel='stylesheet' type='text/css' charset='utf-8' href='/raonsecure/transkey/transkey.css'</link>
+<script src='/raonsecure/transkey/transkey.js'></script>
+-->
+<!-- TouchEnNx Start-->
+<script src='../raonnx/cmn/TouchEnNx_loader.js'></script>
+<!-- TouchEnNx End-->
+
+<!-- <script type="text/javascript" src="/onepass/test/js/jquery.min.js"></script> -->
+<script type="text/javascript">
+	$(document).ready(function() {
+  		$.ajax({
+			url : "https://saml.onepass.go.kr/resources/js/client/onepass-client-1.0.0.js", 
+			type : "GET",
+			cache: true,
+			dataType : "script",
+			success : function(data) {
+				onepassClientLoad();
+			},
+			error : function(data) {
+			}
+		});
+  	})
+  
+	var onepass;
+  	function onepassClientLoad() {
+		onepass = new OnepassClientUtil();
+		onepass.idpUrl = 'https://saml.onepass.go.kr';
+		onepass.loadLoginbtn('onepassLogin');
+  	}
+</script>
+<!-- 현재일자 정의 -->
+
+
+
+
+<script>
+	
+	//화면 로딩 완료 후 실행구문
+	$(window).load(function() {
+		
+		//비밀번호 입력 후 엔터키 눌렀을 때 실행
+		$("#password").keydown(function(evt) {
+			
+			if( (evt.keyCode) && (evt.keyCode==13) ) {
+				
+				getLoginInfo('https://svoucher.kspo.or.kr');
+				
+			}
+			
+		});
+		
+	});
+	
+	function checkSecurity(Obj){
+		if(Obj.id == "nxKeyUse"){
+			if(getCookie("nxKeyUse") == "Y"){
+				setCookie("nxKeyUse","N","1");
+				location.reload();
+			}else{
+				alert("키보드보안을 사용합니다.");
+				setCookie("nxKeyUse","Y","1");
+				console.log("nxKeyUse : " + getCookie("nxKeyUse"));
+				initSecurity();
+			}
+		}
+	}
+	function initSecurity(){
+		console.log("nxKeyUse : " + getCookie("nxKeyUse"));
+		TouchEnNxConfig.use.nxkey = false;
+		if(getCookie("nxKeyUse") == "Y"){
+			console.log("nxKeyUse : " + getCookie("nxKeyUse"));
+			document.getElementById("nxKeyUse").checked = true;
+			TouchEnNxConfig.use.nxkey = true;
+		}
+		
+		TouchEnNx.init();
+	}
+	
+</script>
+
+<form id="frm" name="frm" method="post" action="#">
+	
+	<div class="position">
+		<a href="#selectList" class="mo-select">로그인</a>
+		<ul class="mo-list">
+			
+				<li class="now">
+					<a class="on" href="login.do.html?menuNo=43&topMenuNo=42">로그인</a>
+				</li>
+			
+				<li class="">
+					<a class="" href="findVoucherInfo.do.html?menuNo=46&topMenuNo=42">아이디/비밀번호찾기</a>
+				</li>
+			
+				<li class="">
+					<a class="" href="restoreMember.do.html?menuNo=47&topMenuNo=42">휴면계정 복구</a>
+				</li>
+			
+		</ul>
+	</div>
+	<div class="title-wp">
+		<h4 class="pg-tit">로그인</h4>
+		<p class="locate"> <span>홈</span> <span>로그인</span> <span class="now">로그인</span> </p>
+		<ul class="util-wp">
+			<!--
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="#none" class="btn-print">
+		<img src ="/common/images/sub/icon_print.png" alt="프린트하기" />
+	</a>
+</li>
+<li>
+	<a href="#none" class="btn-share">
+		<img src ="/common/images/sub/icon_share.png" alt="공유하기" />
+	</a>
+</li>
+<li>
+	<a href="#none" class="btn-plus">
+		<img src ="/common/images/sub/icon_plus.png" alt="확대하기" />
+	</a>
+	<a href="#none" class="btn-minus">
+		<img src ="/common/images/sub/icon_minus.png" alt="축소하기" />
+	</a>
+</li>-->
+		</ul>
+	</div>
+	<!--//title-wp--> 
+	<!-- 로그인 -->
+	<div id="loginWrap" class="container">
+		<div class="box">
+			<div class="mb-box">
+				<ul>
+					<li>
+						<label for="mberId" class="blind">아이디</label>
+						<input type="text" id="mberId" name="mberId" placeholder="아이디">
+					</li>
+					<li>
+						<label for="password" class="blind">비밀번호</label>
+						<input type="password" id="password" name="password" placeholder="비밀번호" autocomplete="off">
+					</li>
+				</ul>
+				<a class="btn-login fs-md" href="#" onclick="javascript:getLoginInfo('https://svoucher.kspo.or.kr');return false;" title="로그인" style="margin-bottom:0;">로그인</a>
+			</div>
+			
+			
+			<ul class="log-info">
+				<li style="text-align:left; padding:0 50px; box-sizing:border-box; margin-bottom:10px;">
+					<input type="checkbox" id="nxKeyUse" name="nxKeyUse" onclick="checkSecurity(this);" style="vertical-align:middle; ">
+					<label for="nxKeyUse" style="vertical-align:middle; cursor:pointer;">키보드보안사용</label>
+				</li>
+				<li>* 비밀번호는 주기적으로 변경하시기 바라며, 타인에게 노출되지 않도록 주의하시기 바랍니다.</li>
+				<li>* 원하시는 서비스를 이용하신 후 회원님의 개인보호를 위해 반드시 로그아웃 해주십시오.</li>
+			</ul>
+			
+			<div class="idpw-search">
+				<dl>
+					<dt style="margin-bottom:0;">회원 아이디, 비밀번호를 잊으셨나요?</dt>
+					<dd>
+						<a href="findVoucherInfo.do.html?menuNo=46&topMenuNo=42" title="페이지 이동">이용권회원</a>
+						<a href="findFacilInfo.do.html?menuNo=46&topMenuNo=42" title="페이지 이동">시설회원</a>
+					</dd>
+				</dl>
+			</div>
+			
+			<!-- 2020 10 23 김태형 주임 작업 -->
+			<style>
+			@media all and (min-width:784px) {
+				.onepass_area_login a {display:inline-block !important; width:auto !important;}
+			}
+			.onepass_area_login {width:100%; position:relative; border-top:1px solid #dfdfdf; text-align:center;}
+			.onepass_area_login a {display:block; width:100%; margin-bottom:20px; background:#1c2674; border-radius:5px; box-sizing:border-box; overflow:hidden; }
+			.onepass_area_login p {font-size:16px; font-weight:600; text-align:center; line-height:22px; margin:20px 0; color:#1c2674;}
+			
+			
+			</style>
+			<div class="onepass_area_login">
+				<p>하나의 아이디로 본인이 선택한 인증수단을 사용하여 <br> 여러 전자정부 서비스를 이용할 수 있는 인증 서비스입니다.</p>
+				<a href="../onepass/loginout.jsp.html?serviceType=LOGIN"><img src="../common/images/main/onepass_btn_md.png" alt="디지털원패스로 로그인"></a>
+			</div>
+			<!-- 2020 10 23 김태형 주임 작업 -->
+			
+		</div>
+		<dl class="txt-box">
+			<dt class="fs-lg">스포츠강좌이용권은 이용권 또는 시설 신청과 동시에 회원으로 가입할 수 있습니다.</dt>
+			<dd class="fs-md">아래 내용을 확인하시고 개인회원 또는 시설회원으로 가입해 주세요.</dd>
+		</dl>					
+		<ul class="join-box">
+			<li>
+				<dl>
+					<dt class="fs-big">개인회원 가입</dt>
+					<dd class="fs-bs">스포츠강좌이용권을 신청하여<br>강좌를 이용하려는 고객
+					<a href="../voucher/voucherSelectArea.do.html?menuNo=11&topMenuNo=3" title="페이지 이동"><span>이용권 신청 및 회원가입</span></a></dd>
+				</dl>
+			</li>
+			<li>
+				<dl>
+					<dt class="fs-big">시설회원 가입</dt>
+					<dd class="fs-bs">시설을 신청하여 스포츠강좌이용권<br>회원에게 강좌를 제공하려는 고객
+					<a href="../facility/facilityAgree.do.html?menuNo=15&topMenuNo=4" title="페이지 이동"><span>시설 신청 및 회원가입</span></a></dd>
+				</dl>
+			</li>
+		</ul>
+		
+		<!-- 레이어팝업(비밀번호 변경) -->
+		<div class="dim-layer">
+			<div class="dim-bg"></div>
+			<div id="changePW" class="pop-layer">
+				<h5 class="pop-tit">비밀번호 변경</h5>
+				<div class="pop-content">
+					<p class="top-box fs-lg02">보다 안전한 서비스 제공을 위해<br>비밀번호를 변경하고 있습니다.</p>
+					<ul class="ip-area line-box">
+						<li>
+							<label for="passwordBefore" class="blind">기존 비밀번호</label>
+							<input type="password" id="passwordBefore" name="passwordBefore" class="ip-text mo-full" title="기존 비밀번호 입력" placeholder="기존 비밀번호" value="" autocomplete="off">
+							<span class="txt-info mo-blind txt-color">* 현재 사용중인 비밀번호 입력</span>
+						</li>
+						<li>
+							<label for="passwordNew" class="blind">새 비밀번호</label>
+							<input type="password" id="passwordNew" name="passwordNew" class="ip-text mo-full" title="새로 사용할 비밀번호 입력" placeholder="새 비밀번호" value="" autocomplete="off">
+							<span class="txt-info mo-blind txt-color">* 새로 사용할 비밀번호 입력</span>
+						</li>
+						<li>
+							<label for="passwordNewConfirm" class="blind">새 비밀번호 확인</label>
+							<input type="password" id="passwordNewConfirm" name="passwordNewConfirm" class="ip-text mo-full" title="새로 사용할 비밀번호 확인 입력" placeholder="새 비밀번호 확인" value="" autocomplete="off">
+							<span class="txt-info mo-blind txt-color">* 새로 사용할 비밀번호 다시 한번 입력</span>
+						</li>
+					</ul>
+					
+					<div class="btn-area type02">
+						<a class="enter fs-bs" href="#" onclick="javascript:changePassword();return false;" title="비밀번호 변경">저장</a>
+						
+						<!--비밀번호 변경 90일 이후 다음에 변경하기 버튼 노출//-->
+						<a id="btnChangeNext" class="fs-bs" href="#" onclick="javascript:pwdChangeNext();return false;">다음에 변경하기</a>
+						
+					</div>
+					
+					<ul class="info">
+						<li style="color:red;">* 영문소문자, 숫자, 특수문자 총 3종류 이상을 조합하여 최소 9자리 이상 16자리 이하 등록 가능합니다.</li>
+						<li style="color:red;">* 사용 가능한 특수문자는 ! @ # $ % ^ * + = - 입니다.</li>
+						<li style="color:red;">* 같은 문자(aaa), 같은숫자(111), 연속 숫자(123)은 사용하실 수 없습니다.</li>
+						<li>* 비밀번호는 3개월마다 변경하셔야 합니다.</li>
+					</ul>
+				</div>
+				<a href="#" class="pop-close"><img src="../common/images/sub/pop_close.png" alt="팝업 닫기"></a>
+			</div>
+		</div>
+		<!--// 레이어팝업(비밀번호 변경)-->
+		
+	</div>
+	<!--// 로그인-->
+	
+</form>
+
+				<!-- 컨텐츠 영역 End -->
+			</div>
+			<!--//content-wp--> 
+		</div>
+		<!--//sub-layout--> 
+	</div>
+	
+	<!-- Footer Start -->
+	
+
+
+
+
+
+
+
+
+
+
+
+<!-- 20180222 접근성 수정 -->
+<footer id="footer" class="footer" tabindex="-1">
+	<!-- 패밀리 사이트 -->
+	<div class="family-site foot-sm" id="layFamilySite"> <strong class="sr-only">패밀리 사이트</strong>
+		<div class="owl-carousel owl-theme  foot-sm-inner">
+			<div class="item">
+				<ul class="family-site-cont">
+					<li><strong>공단본부</strong>
+						<ul>
+							<li><a href="http://www.kspo.or.kr" target="_blank" title="새창열림">KSPO국민체육진흥공단</a></li>
+							<li><a target="_blank" title="새창열림" href="http://www.kspo.or.kr/sportsmuseum">국립체육박물관</a></li>
+							<li><a href="http://nfa.kspo.or.kr" target="_blank" title="새창열림">국민체력100</a></li>
+							<li><a target="_blank" title="새창열림" href="http://cleansports.kspo.or.kr">불법스포츠토토신고센터</a></li>
+							<li><a target="_blank" title="새창열림" href="http://soma.kspo.or.kr">소마미술관</a></li>
+							<li><a href="../main.do.html" target="_blank" title="새창열림">스포츠강좌이용권</a></li>
+							<li><a href="https://spobiz.kspo.or.kr" target="_blank" title="새창열림">스포츠산업지원</a></li>
+							<li><a target="_blank" title="새창열림" href="http://ecolian.kspo.or.kr">에콜리안 골프장</a></li>
+							<li><a target="_blank" title="새창열림" href="http://88olympic.kspo.or.kr">올림픽기념관</a></li>
+						</ul>
+					</li>
+					<li>
+						<ul class="mt-30">
+							<li><a target="_blank" title="새창열림" href="http://library.kspo.or.kr">올림픽자료실</a></li>
+							<li><a target="_blank" title="새창열림" href="http://www.parktel.co.kr">올림픽파크텔</a></li>
+							<li><a target="_blank" title="새창열림" href="http://www.spoinfo.or.kr">체육시설알리미</a></li>
+							<li><a href="https://sqms.kspo.or.kr" target="_blank" title="새창열림">체육지도자연수원</a></li>
+							<li><a target="_blank" title="새창열림" href="http://tourdekorea.kspo.or.kr">투르드코리아</a></li>								
+							<li><a href="https://edu.kspo.or.kr/" target="_blank" title="새창열림">K스포에듀</a></li>
+							<li><a href="http://blog.naver.com/kspo2011" target="_blank" title="새창열림">KSPO 블로그</a></li>
+							<li><a href="https://www.instagram.com/kspo.insta/" target="_blank" title="새창열림">KSPO 인스타그램</a></li>
+							<li><a href="https://www.youtube.com/user/kspo97" target="_blank" title="새창열림">KSPO 유튜브</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="item">
+				<ul class="family-site-cont item2">
+					<li> <strong>경주사업총괄본부</strong>
+						<ul>
+							<!-- <li><a target="_blank" title="새창열림" href="http://www.krace.or.kr">경주사업총괄본부</a></li> -->
+							<li><a target="_blank" title="새창열림" href="http://www.kcycle.or.kr">KCYCLE경륜</a></li>
+							<!-- <li><a target="_blank" title="새창열림" href="http://www.kcycle.or.kr/club/">경륜선수클럽</a></li> -->
+							<li><a target="_blank" title="새창열림" href="http://www.kboat.or.kr">KBOAT경정</a></li>
+							<!-- <li><a target="_blank" title="새창열림" href="http://www.kboat.or.kr/club/">경정선수클럽</a></li> -->
+							<!-- <li><a target="_blank" title="새창열림" href="http://www.kcycle.or.kr/kspogf">KSPO 백두대간 그란폰도</a></li> -->
+						</ul>
+					</li>
+					<li> <strong>한국스포츠과학원</strong>
+						<ul>
+							<li><a target="_blank" title="새창열림" href="http://www.sports.re.kr">한국스포츠과학원</a></li>
+							<li><a target="_blank" title="새창열림" href="http://www.sports.re.kr/lib/">한국스포츠과학원 도서관</a></li>
+							<li><a target="_blank" title="새창열림" href="http://css.kspo.or.kr">지역스포츠과학센터</a></li>
+						</ul>
+					</li>
+					<li> <strong>한국체육산업개발</strong>
+						<ul>
+							<li><a target="_blank" title="새창열림" href="http://www.ksponco.or.kr">한국체육산업개발</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<a href="#" class="x"><span class="sr-only">닫기</span></a> </div>
+	<!-- 관련사이트 -->
+	<div class="relative-site foot-sm" id="layRelativeSite"> <strong class="sr-only">관련 사이트</strong>
+		<div class="relative-site-inner">
+			<ul>
+				<li><a href="http://www.mcst.go.kr/main.jsp" target="_blank" title="새창열림">문화체육관광부</a></li>
+				<li><a href="https://www.mohw.go.kr" target="_blank" title="새창열림">보건복지부</a></li>
+				<li><a href="http://www.shinhancard.com" target="_blank" title="새창열림">신한카드사</a></li>
+				<li><a href="http://www.mnuri.kr" target="_blank" title="새창열림">문화누리</a></li>
+			</ul>
+			<a href="#" class="x"><span class="sr-only">닫기</span></a> </div>
+	</div>
+	<!-- 주요서비스 -->
+	<div class="footer-first-wrap">
+		<ul class="inner site-lay">
+			<li>
+				<div class="footer-service">
+					<strong>주요서비스</strong>
+					<div class="foot-servie slide-warp">
+						<a href="#none" class="prev"><img src="../common/images/common/icon_prev.png" alt="이전"></a>
+						<ul id="scrolling">
+							<li><a href="../svoucher/bbs/B0000051/list.do.html?menuNo=20&topMenuNo=5">공지사항</a></li>
+							<li><a href="../svoucher/bbs/qna/qnaList.do.html?menuNo=23&topMenuNo=5">고객의 소리</a></li>
+							<li><a href="../officer/officerList.do.html?menuNo=14&topMenuNo=3">시군구 담당자 안내</a></li>
+							<li><a href="../course/memberFacilityList.do.html?menuNo=8&topMenuNo=1">시설 및 강좌 조회</a></li>
+						</ul>
+						<a href="#none" class="next"><img src="../common/images/common/icon_next.png" alt="다음"></a>
+					</div>
+				</div>
+			</li>
+			<li><a href="#layFamilySite" data-rel="layFamilySite" class="family"><strong>패밀리사이트</strong></a></li>
+			<li><a href="#layRelativeSite" data-rel="layRelativeSite" class="relative"><strong>관련사이트</strong></a></li>
+		</ul>
+	</div>
+	<!-- 개인정보 처리방침 -->
+	<div class="footer-second-wrap">
+		<div class="inner">
+			<div class="footer-util">
+				<ul>
+					<!--<li><a href="http://www.kspo.or.kr/kspo/main/contents.do?menuNo=200216" target="_blank" title="새창열림" class="privacy">개인정보처리방침</a></li>-->  <!-- 20180213 접근성 수정 -->
+					<li><a href="http://www.kspo.or.kr/kspo/privacy/privacyPolicy/privacy_policy.do?menuNo=200438" target="_blank" title="새창열림" class="privacy">개인정보처리방침</a></li>   <!-- 20180213 접근성 수정 -->					
+					<li><a href="../svoucher/main/contents.do-6.html?menuNo=51&topMenuNo=48">이메일수집거부</a></li>
+					<li><a href="https://www.113366.com" target="_blank" title="새창열림">1:1원격상담 </a></li> <!-- 20180213 접근성 수정 -->
+					<li><a href="../svoucher/main/contents.do-7.html?menuNo=52&topMenuNo=48">홈페이지저작권정책</a></li>
+					<li><a href="../svoucher/bbs/clean/cleanInfo.do.html?menuNo=24&topMenuNo=5">부정사용신고센터 </a></li> <!-- 20180213 접근성 수정 -->
+				</ul>
+			</div>
+			<div class="foot-address fs-small">
+				<address>
+				<span>05540 서울특별시 송파구 올림픽로 424 올림픽회관 </span> <span>TEL  02-410-1298~9</span> <span>FAX  02-410-1339</span>
+				</address>
+				<p class="copyright fs-small">COPYRIGHT  &copy; 스포츠강좌이용권. ALL RIGHT RESERVED.</p>
+			</div>
+			<div class="award-banner">
+				
+
+				
+				
+				<img src="../common/images/common/wa2024.png" style="width:110px;" alt="웹접근성품질인증마크">
+				
+			</div>
+		</div>
+	</div>
+</footer>
+
+	<!-- Footer End -->
+	
+</div>
+
+<!-- Publishing Script -->
+<script src="../common/js/plugin.js"></script>
+<script src="../common/js/default.js"></script>
+<!-- Main script -->
+<script src="../common/js/responsive-tables.js"></script>
+<script src="../common/js/main.js"></script>
+<script src="../common/js/sub.js"></script>
+
+<!-- 로딩화면 영역 -->
+<div class="loading_wrap" id="loading_wrap" style="display:none;">
+	<div class="loading_dim"></div>
+	<div class="loading_box">
+		<!-- <img src="/common/img/common/loading_v1.gif" alt="" /> -->
+	</div>
+</div>
+<!-- 로딩화면 영역 -->
+
+</body>
+
+
+
+</html>
